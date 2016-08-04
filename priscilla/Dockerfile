@@ -1,4 +1,7 @@
-FROM busybox
+FROM debian:jessie
+
+RUN apt-get update
+RUN apt-get install -y ca-certificates
 
 ADD http://priscilla.chat/downloads/priscilla/latest/linux/amd64/priscilla /priscilla
 
