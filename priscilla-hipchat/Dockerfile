@@ -1,4 +1,4 @@
-FROM busybox
+FROM debian:jessie
 
 ADD http://priscilla.chat/downloads/priscilla-hipchat/latest/linux/amd64/priscilla-hipchat /priscilla-hipchat
 
