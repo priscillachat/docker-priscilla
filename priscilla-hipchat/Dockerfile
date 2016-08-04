@@ -5,4 +5,4 @@ ADD http://priscilla.chat/downloads/priscilla-hipchat/latest/linux/amd64/priscil
 RUN chmod a+x /priscilla-hipchat
 RUN mkdir -p /var/log
 
-CMD ["/priscilla", "-conf", "/etc/priscilla.yml", "-confname", "hipchat"]
+CMD ["/priscilla-hipchat", "-conf", "/etc/priscilla.yml", "-confname", "hipchat"]
